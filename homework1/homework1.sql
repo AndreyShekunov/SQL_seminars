@@ -4,7 +4,7 @@ USE homework1;
 SELECT * FROM phone;
 
 -- 2. Выведите название, производителя и цену для товаров, количество которых превышает 2 (SQL - файл, скриншот, либо сам код)
-SELECT ProductName, Manufacturer, ProductCount
+SELECT ProductName, Manufacturer, ProductCount, Price
 FROM phone
 WHERE ProductCount > 2;
 
